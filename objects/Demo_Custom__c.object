@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
-    <label>Demo Custom Object</label>
-    <pluralLabel>Demo Custom Objects</pluralLabel>
-     <nameField>
-        <label>Demo Custom Name</label>
-        <type>Text</type>
-        <length>80</length>
-    </nameField>
     <fields>
         <fullName>Field_One__c</fullName>
         <defaultValue>false</defaultValue>
@@ -14,7 +7,6 @@
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
-
     <fields>
         <fullName>Field_Two__c</fullName>
         <externalId>false</externalId>
@@ -24,20 +16,10 @@
         <type>Email</type>
         <unique>false</unique>
     </fields>
-
-     <fields>
-        <fullName>Field_Three__c</fullName>
+    <fields>
+        <fullName>Fourth_Field__c</fullName>
         <externalId>false</externalId>
-        <label>Field Three</label>
-        <required>false</required>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
-      <fields>
-        <fullName>Field_Four__c</fullName>
-        <externalId>false</externalId>
-        <label>Field Four</label>
+        <label>Fourth Field</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Email</type>
@@ -53,6 +35,4 @@
 )</errorConditionFormula>
         <errorMessage>Please enter Field two if Field one is checked.</errorMessage>
     </validationRules>
-    <deploymentStatus>Deployed</deploymentStatus>
-    <sharingModel>Private</sharingModel>
 </CustomObject>
