@@ -43,4 +43,5 @@
 )</errorConditionFormula>
         <errorMessage>Please enter Field two if Field one is checked.</errorMessage>
     </validationRules>
+    <deploymentStatus>Deployed</deploymentStatus>
 </CustomObject>
