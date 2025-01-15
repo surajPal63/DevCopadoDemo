@@ -21,7 +21,6 @@
      <fields>
         <fullName>Field_Three__c</fullName>
         <externalId>false</externalId>
-        <label>Field Three</label>
         <required>false</required>
         <trackTrending>false</trackTrending>
         <type>Email</type>
