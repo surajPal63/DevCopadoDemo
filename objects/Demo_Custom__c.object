@@ -2,7 +2,11 @@
 <CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <label>Demo Custom Object</label>
     <pluralLabel>Demo Custom Objects</pluralLabel>
-
+     <nameField>
+        <label>Demo Custom Name</label>
+        <type>Text</type>
+        <length>80</length>
+    </nameField>
     <fields>
         <fullName>Field_One__c</fullName>
         <defaultValue>false</defaultValue>
